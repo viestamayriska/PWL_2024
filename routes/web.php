@@ -12,7 +12,11 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/welcome', function () {
+    return 'Selamat Datang Viesta';
+});
 
-Route::get('/', function () {
-    return view('welcome');
+
+Route::get('/NIM', function () {
+ return '2241760134 Viesta';
 });
